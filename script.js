@@ -20,7 +20,16 @@ Cesium.GeoJsonDataSource.clampToGround = true;
 
 const your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
   url : 'https://assets.cms.plateau.reearth.io/assets/d2/7214a9-e4a1-427f-8d02-9abfbff75e05/09201_utsunomiya-shi_2020_3dtiles_3_op_bldg_lod1/tileset.json'
-}));
+}
+));
+
+your_3d_tiles.style = new Cesium.Cesium3DTileStyle({
+  color: {
+    conditions: [
+      ["true", "color('#e3fff34D')"],   
+    ],
+  },
+});
 
 viewer.dataSources.add(Cesium.KmlDataSource.load("./data/kml/stops.kml",{clampToGround:true}));
 
