@@ -26,7 +26,11 @@ const your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
 your_3d_tiles.style = new Cesium.Cesium3DTileStyle({
   color: {
     conditions: [
-      ["true", "color('#e3fff34D')"],   
+      ["Number(${計測高さ} )> 50", "color('#031cfc80')"],
+      ["Number(${計測高さ} )> 25", "color('#5367fc80')"],
+      ["Number(${計測高さ} )> 10", "color('#8d9afc80')"],
+      ["Number(${計測高さ} )> 5", "color('#b5bcf780')"],
+      ["true", "color('#e3fff380')"],   
     ],
   },
 });
