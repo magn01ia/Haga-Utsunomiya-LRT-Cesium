@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="stops" id="stops">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="stop_lat" type="float"></SimpleField>
+	<SimpleField name="stop_lon" type="float"></SimpleField>
+</Schema>
+<StyleMap id="pin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#pin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#pin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="pin">
+		<IconStyle>
+			<scale>1.25</scale>
+			<Icon>
+				<href>https://magn01ia.github.io/map_icon/png/marker.png</href>
+			</Icon>
+			<hotSpot x="0" y="0" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="pin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://magn01ia.github.io/map_icon/png/marker.png</href>
+			</Icon>
+			<hotSpot x="0" y="0" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+<Folder>
+  <name>stops</name>
+  <Placemark>
+	<name>宇都宮駅東口</name>
+	<description>101_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5594907</SimpleData>
+		<SimpleData name="stop_lon">139.8996398</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.899639847656,36.5594906727921</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>東宿郷</name>
+	<description>102_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5582803</SimpleData>
+		<SimpleData name="stop_lon">139.9038983</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.903898321537,36.5582802598472</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>東宿郷</name>
+	<description>102_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5582979</SimpleData>
+		<SimpleData name="stop_lon">139.9031703</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.903170286832,36.558297862403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>駅東公園前</name>
+	<description>103_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5579872</SimpleData>
+		<SimpleData name="stop_lon">139.9079452</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.907945185482,36.5579872479817</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>駅東公園前</name>
+	<description>103_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5579689</SimpleData>
+		<SimpleData name="stop_lon">139.9074492</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.907449165532,36.5579689405545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>峰</name>
+	<description>104_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5575391</SimpleData>
+		<SimpleData name="stop_lon">139.9161206</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.916120552691,36.5575390930723</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>峰</name>
+	<description>104_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5575216</SimpleData>
+		<SimpleData name="stop_lon">139.9152453</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.915245325175,36.5575215980036</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>陽東3丁目</name>
+	<description>105_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5573035</SimpleData>
+		<SimpleData name="stop_lon">139.9229579</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.922957949291,36.5573035401007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>陽東3丁目</name>
+	<description>105_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5572811</SimpleData>
+		<SimpleData name="stop_lon">139.9225016</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.922501578571,36.5572811160117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宇都宮大学陽東キャンパス</name>
+	<description>106_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5570493</SimpleData>
+		<SimpleData name="stop_lon">139.9300142</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.930014217944,36.5570493199312</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宇都宮大学陽東キャンパス</name>
+	<description>106_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5570345</SimpleData>
+		<SimpleData name="stop_lon">139.9293711</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.92937113172,36.557034532984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平石</name>
+	<description>107_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5549730</SimpleData>
+		<SimpleData name="stop_lon">139.9400366</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.94003663926,36.5549729512019</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平石</name>
+	<description>107_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5549193</SimpleData>
+		<SimpleData name="stop_lon">139.9400379</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.940037853012,36.5549193267522</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平石中央小学校前</name>
+	<description>108_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5548215</SimpleData>
+		<SimpleData name="stop_lon">139.9448908</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.944890774538,36.5548215331286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平石中央小学校前</name>
+	<description>108_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5547832</SimpleData>
+		<SimpleData name="stop_lon">139.9448875</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.944887537866,36.5547831834507</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>飛山城跡</name>
+	<description>109_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5483424</SimpleData>
+		<SimpleData name="stop_lon">139.9634647</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.963464720484,36.5483424089415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>飛山城跡</name>
+	<description>109_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5483052</SimpleData>
+		<SimpleData name="stop_lon">139.9634438</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.963443763333,36.5483052130629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>清陵高校前</name>
+	<description>110_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5448964</SimpleData>
+		<SimpleData name="stop_lon">139.9760882</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.976088231307,36.5448964112485</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>清陵高校前</name>
+	<description>110_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5448641</SimpleData>
+		<SimpleData name="stop_lon">139.9760948</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.976094810877,36.5448641081254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>清原地区市民センター前</name>
+	<description>111_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5475782</SimpleData>
+		<SimpleData name="stop_lon">139.9841193</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.984119270976,36.5475782437806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>グリーンスタジアム前</name>
+	<description>112_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5541146</SimpleData>
+		<SimpleData name="stop_lon">139.9830721</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.983072137267,36.5541146011199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>グリーンスタジアム前</name>
+	<description>112_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5549857</SimpleData>
+		<SimpleData name="stop_lon">139.9827555</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.982755464979,36.5549856731016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ゆいの杜西</name>
+	<description>113_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5674806</SimpleData>
+		<SimpleData name="stop_lon">139.9873161</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.987316130829,36.5674806323353</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ゆいの杜西</name>
+	<description>112_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5671847</SimpleData>
+		<SimpleData name="stop_lon">139.9863462</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.986346192487,36.5671847042597</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ゆいの杜中央</name>
+	<description>114_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5677342</SimpleData>
+		<SimpleData name="stop_lon">139.9928400</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.992839982294,36.5677342040806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ゆいの杜中央</name>
+	<description>114_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5677198</SimpleData>
+		<SimpleData name="stop_lon">139.9921175</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.992117508906,36.5677198187615</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ゆいの杜東</name>
+	<description>115_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5676287</SimpleData>
+		<SimpleData name="stop_lon">139.9986161</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.998616075999,36.5676286994457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ゆいの杜東</name>
+	<description>115_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5676290</SimpleData>
+		<SimpleData name="stop_lon">139.9977445</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.997744465682,36.5676289685592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>芳賀台</name>
+	<description>116_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5661392</SimpleData>
+		<SimpleData name="stop_lon">140.0063621</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.00636210557,36.5661392400886</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>芳賀台</name>
+	<description>116_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5663628</SimpleData>
+		<SimpleData name="stop_lon">140.0054753</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.005475325688,36.5663628039628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>芳賀町工業団地管理センター前</name>
+	<description>117_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5648742</SimpleData>
+		<SimpleData name="stop_lon">140.0109201</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.010920053151,36.5648742028612</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>芳賀町工業団地管理センター前</name>
+	<description>117_2</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5648425</SimpleData>
+		<SimpleData name="stop_lon">140.0109113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.01091128039,36.564842495266</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>かしの森公園前</name>
+	<description>118_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5723930</SimpleData>
+		<SimpleData name="stop_lon">140.0147053</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.014705296587,36.572393044753</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>芳賀_高根沢工業団地前</name>
+	<description>119_1</description>
+	<styleUrl>#pin</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#stops">
+		<SimpleData name="stop_lat">36.5791920</SimpleData>
+		<SimpleData name="stop_lon">140.0117818</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>140.011781829809,36.5791920263651</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
