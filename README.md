@@ -1,8 +1,10 @@
 # Haga-Utsunomiya-LRT-Cesium
-![image](https://github.com/magn01ia/Haga-Utsunomiya-LRT-Cesium/assets/84883260/193c3a48-f270-425a-bf97-7e7afea0c7f6)
+![image](https://github.com/magn01ia/Haga-Utsunomiya-LRT-Cesium/assets/84883260/193c3a48-f270-425a-bf97-7e7afea0c7f6)  
+[デモサイト](https://magn01ia.github.io/Haga-Utsunomiya-LRT-Cesium/)  
+
 [Haga-Utsunomiya-LRT-GTFS ](https://github.com/magn01ia/Haga-Utsunomiya-LRT-GTFS)  
 で作成したデータを三次元地図プラットフォームのCesiumで可視化したもの。  
-事業とは何ら関係のない個人の趣味で作成したものにつき実際のものとは相違がある点に注意。
+事業とは何ら関係のない個人の趣味の範囲内で作成したものにつき実際のものとは相違がある点に注意。
 
 ## LRT停留所
 [Haga-Utsunomiya-LRT-GTFS ](https://github.com/magn01ia/Haga-Utsunomiya-LRT-GTFS)  
