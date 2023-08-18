@@ -5,7 +5,7 @@ const viewer = new Cesium.Viewer('cesiumContainer', {
   }),
   animation: false,
   baseLayerPicker: false,
-  fullscreenButton: false,
+  fullscreenButton: true,
   geocoder: false,
   homeButton: false,
   navigationHelpButton: false,
@@ -16,6 +16,7 @@ const viewer = new Cesium.Viewer('cesiumContainer', {
     credit: '<a href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a>'
   })
 });
+
 Cesium.GeoJsonDataSource.clampToGround = true; 
 
 const your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
@@ -26,10 +27,19 @@ const your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
 your_3d_tiles.style = new Cesium.Cesium3DTileStyle({
   color: {
     conditions: [
-      ["Number(${計測高さ} )> 50", "color('#031cfc80')"],
-      ["Number(${計測高さ} )> 25", "color('#5367fc80')"],
-      ["Number(${計測高さ} )> 10", "color('#8d9afc80')"],
-      ["Number(${計測高さ} )> 5", "color('#b5bcf780')"],
+      ["Number(${計測高さ} )> 75", "color('#FF004080')"],
+      ["Number(${計測高さ} )> 60", "color('#FF008080')"],
+      ["Number(${計測高さ} )> 55", "color('#FF00BF80')"],
+      ["Number(${計測高さ} )> 50", "color('#FF00FF80')"],
+      ["Number(${計測高さ} )> 45", "color('#BF00FF80')"],
+      ["Number(${計測高さ} )> 40", "color('#8000FF80')"],
+      ["Number(${計測高さ} )> 35", "color('#4000F80')"],
+      ["Number(${計測高さ} )> 30", "color('#0000FF80')"],
+      ["Number(${計測高さ} )> 25", "color('#0040FF80')"],
+      ["Number(${計測高さ} )> 20", "color('#0080FF80')"],
+      ["Number(${計測高さ} )> 15", "color('#00BFFF80')"],
+      ["Number(${計測高さ} )> 10", "color('#00FFFF80')"],
+      ["Number(${計測高さ} )> 5", "color('#00FFBF80')"],
       ["true", "color('#e3fff380')"],   
     ],
   },
@@ -57,7 +67,6 @@ const area = viewer.dataSources.add(Cesium.GeoJsonDataSource.load("./data/geojso
   strokeWidth:3
 }));
 
-
 var pointDataSource = {
   "distancelabel": {url: "./data/geojson/bs.geojson", pic: "https://magn01ia.github.io/map_icon/png/pin.png", size: 0.15},
 };
@@ -75,7 +84,6 @@ var entity = entities[i];
      });
   })
 ;}
-
 
 viewer.camera.setView({
   destination : Cesium.Cartesian3.fromDegrees(139.86, 36.54, 2000),
