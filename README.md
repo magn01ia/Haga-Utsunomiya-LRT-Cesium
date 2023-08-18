@@ -1,5 +1,5 @@
 # Haga-Utsunomiya-LRT-Cesium
-![image](https://github.com/magn01ia/Haga-Utsunomiya-LRT-Cesium/assets/84883260/193c3a48-f270-425a-bf97-7e7afea0c7f6)  
+![image](https://github.com/magn01ia/Haga-Utsunomiya-LRT-Cesium/assets/84883260/1d5906bb-b115-4c4e-8049-196805d54a29)
 [デモサイト](https://magn01ia.github.io/Haga-Utsunomiya-LRT-Cesium/)  
 
 [Haga-Utsunomiya-LRT-GTFS ](https://github.com/magn01ia/Haga-Utsunomiya-LRT-GTFS)  
@@ -12,6 +12,7 @@
 
 ## 地形・建物
 国土交通省Project PLATEAUのPLATEAU配信サービス(試験運用)にて試験配信されている地形データ及び建物データ(LOD1)を使用。  
+高さごとに色分け。  
 背景地図には国土地理院のタイル全国航空写真を使用。  
 [国土交通省Project PLATEAU](https://www.mlit.go.jp/plateau/)  
 [PLATEAU配信サービス（試験運用）](https://github.com/Project-PLATEAU/plateau-streaming-tutorial/tree/main)  
